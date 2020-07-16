@@ -1,0 +1,36 @@
+<body>
+		<h1 class="heading">Charles Siebert - CS493 - Final</h1>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="./">Google App Engine</a>
+				</div>
+				<div>
+					<ul class="nav navbar-nav">
+						<li><a href="/contact">Contact</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<section>
+			<h2>Click me to sell your info</h2>
+			<form method="GET" action="/login">
+				<div>
+				<button type="submit">Submit</button>
+				</div>
+			</form>
+		</section>
+		<div>
+			<h1>
+				<ul>
+					<li>Full Name: {{name}}</li>
+					<li>E-mail: {{email}}</li>
+					<li>sub: {{sub}}</li>
+					<li>jwt: {{jwt}}</li>
+				</ul>
+			</h1>
+			<h2>{{accountCreation}}</h2>
+		</div>
+	</body>

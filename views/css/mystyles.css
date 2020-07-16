@@ -1,0 +1,235 @@
+/* Charles Siebert
+CS290 Style Sheet
+mystyles.css */
+
+body {
+	font-family: Helvetica;
+	color:white;
+	height: 95%;
+	background-image: url('../images/tweed.png');
+	
+}
+
+nav {
+	margin: 20px;
+}
+
+div.game {
+	padding-top: 10px;
+	text-align: center;
+}
+
+div button {
+	color: black;
+}
+
+.heading {
+	font-family: Georgia;
+	text-align: center;
+	color:white;
+	width: 100%;
+}
+
+footer {
+	padding: 15px 16px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background-color: #1A1A1A;
+	font-family: Helvetica;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+footer a {
+	padding: 15px 14px;
+	display: in-line;
+	color: #999;
+}
+
+footer a:hover {
+	padding: 15px 14px;
+	background-color: #111111;
+	text-decoration:none;
+	color: white;
+}
+
+.login_section {
+	background-color: #2A2A2A;
+	text-align: center;
+	border: solid black 1px;
+	margin-right:25%;
+	margin-left:25%;
+	padding-bottom: 10px;
+}
+
+.login_section td {
+	color: white;
+}
+
+.login_section p {
+	display: inline;
+}
+
+.login_section label {
+	color: white;
+}
+
+.store_body {
+	margin-right: 215px;
+	margin-left: 215px;
+	background-color: #D1D1D1;
+	height: 100%;
+	border: solid black 1px;
+}
+
+.cart_body {
+	border: solid black 1px;
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: #D1D1D1;
+	height: 9000px;
+}
+
+.store_nav {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-left:20px;
+	position: fixed;
+	width: 175px;
+	background-color: #f1f1f1;
+	border: solid black 1px;
+}
+
+#orderstatus {
+	font-family:Georgia;
+	padding-bottom: 10px;
+	margin-top: 50%;
+	margin-right:20px;
+	position: fixed;
+	width: 175px;
+	top:150px;right:0;
+	background-color: #f1f1f1;
+	border: solid black 1px;
+}
+
+#cart_nav {
+	font-family:Georgia;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-right:20px;
+	position: fixed;
+	width: 175px;
+	top:150px;right:0;
+	background-color: #f1f1f1;
+	border: solid black 1px;
+}
+
+#storetable table {
+	border-collapse:collapse
+}
+#storetable tr {
+	border-bottom: 1pt solid black;
+}
+#storetable tr td img{ 
+	width: 100px;
+	}
+
+label input {
+	width:200px;
+}
+	
+#description {
+	text-align: center;
+}	
+
+#images{
+	text-align:center;
+}
+#images img {
+	width: 150px;
+}
+
+#images table {
+	display: inline-table;
+}
+
+#cart_container {
+	color: white;
+	background-color: #2A2A2A;
+	text-align: center;
+	border: solid black 1px;
+	margin-right:25%;
+	margin-left:25%;
+	padding-bottom: 10px;
+}
+
+#cart_container table {
+	margin-left:15%;
+	margin-right:15%;
+}
+#cart_container table th {
+	text-align:right;
+	padding: 5px;
+	padding-right:15px;
+}
+
+#cart_container table td {
+	text-align:right;
+	padding: 5px;
+	padding-right:15px;
+}
+
+#mainContact {
+	text-align:center;
+	margin-right: 10%;
+	margin-left: 10%;
+	background-color: #D1D1D1;
+	height: 100%;
+	border: solid black 1px;
+}
+
+.checkout_body {
+	background-color: #2A2A2A;
+	border: solid black 1px;
+	margin-left:20px;
+	margin-right:20px;
+	padding:5%;
+	height: 100%;
+}
+.checkout_body label {
+	font-family: Georgia;
+	color: white;
+}
+
+.store_nav ul {
+	font-family:Georgia;
+	list-style: none;
+	padding-left:5px;
+}
+
+.store_nav legend {
+	text-align:center;
+}
+
+.sort {
+	border-collapse:collapse
+}
+.sort tr {
+	border-bottom: 1pt solid black;
+}
+.sort tr td {
+	text-align:center;
+	padding:10px;
+}
+
+.store_nav ul li input {
+	margin: 10px;
+}
+
+.catbtn {
+	margin:
+}
+

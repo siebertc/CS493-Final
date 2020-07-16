@@ -1,0 +1,36 @@
+{
+  "name": "siebertc-cs493-hw6",
+  "version": "0.0.1",
+  "description": "Node.js getting started sample for updating an app on App Engine standard environment.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "gcloud app deploy",
+    "test": "mocha test/*.test.js --exit --timeout=20000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GoogleCloudPlatform/nodejs-docs-samples.git"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "author": "Charles Siebert",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@google-cloud/datastore": "^4.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-jwt": "^5.3.1",
+    "google-gax": "^1.6.4",
+    "googleapis": "^45.0.0",
+    "jwks-rsa": "^1.6.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@google-cloud/nodejs-repo-tools": "^3.3.0",
+    "mocha": "^6.0.0"
+  }
+}
